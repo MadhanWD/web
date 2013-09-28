@@ -1,0 +1,30 @@
+$(window).load(function(){
+// load on DOM ready
+$(function() {
+    // when you click the link w/ a class of 'overview'
+	$('.overview').click(function() {
+        // scroll to the DIV w/ an ID of 'overview'
+        $.scrollTo( '#overview', 800, {easing:'swing'} );
+            });
+    $('.subcontract').click(function() {
+        // scroll to the DIV w/ an ID of 'subcontracting'
+        $.scrollTo( '#subcontract', 800, {easing:'swing'} );
+               
+    });
+	$('.expertises').click(function() {
+        // scroll to the DIV w/ an ID of 'expertise'
+        $.scrollTo( '#expertises', 800, {easing:'swing'} );
+            });
+	$('.outsources').click(function() {
+        // scroll to the DIV w/ an ID of 'outsource'
+        $.scrollTo( '#outsources', 800, {easing:'swing'} );
+               
+    });
+	$('.collaborations').click(function() {
+        // scroll to the DIV w/ an ID of 'collaboration'
+        $.scrollTo( '#collaborations', 800, {easing:'swing'} );
+               
+    });
+			
+});
+});//]]>  

@@ -1,0 +1,196 @@
+/* CSS Document */
+
+#nav {
+
+   text-align:center;
+
+}
+
+#nav ul {
+
+	text-align:center;
+	text-decoration: none;
+	background-color: #2c2c2c;
+
+}
+
+#nav li {   
+
+	float: left;
+	text-align:center;
+	font-size:14px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:45px;
+	padding-left:45px;
+	background: #2c2c2c;
+	list-style: none;
+
+}
+
+#nav a{
+
+    color:#fff;
+	cursor:pointer;
+	text-align:center;
+    text-decoration:none;
+
+}
+
+#nav li:hover {
+
+	background-color:#444242;
+	color:#3795d4;
+	
+}
+
+#nav li:active {
+
+	background-color:#444242;
+	color:#3795d4;
+
+}
+
+#social ul{
+
+	width:172px;
+	display:block;
+	background-color:#2c2c2c;
+	
+}
+
+#social li{
+
+	width:50px;
+    float:left;
+	list-style:none;
+
+}
+
+#social a {
+
+	cursor:pointer;
+
+}
+
+.twitter {
+
+	position:absolute;
+	left:0px;
+	width:40px;
+	height:40px;
+	top:0px;
+	transition: background-image ease-in-out;
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/twitter.png);
+	display:none;
+
+}
+
+.linkedin {
+
+	position:absolute;
+ 	top:0px;
+ 	width:40px;
+ 	height:41px;
+	left:50px;
+ 	transition: background-image ease-in-out;
+ 	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/in_ico.png);
+	background-repeat:no-repeat;
+ 	display:none;
+	
+}
+
+.google {
+ 	
+	position:absolute;
+	top:0px;
+	width:40px;
+	height:41px;
+	left:100px;
+	transition: background-image ease-in-out;
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/google_ico.png);
+	background-repeat:no-repeat;
+	display:none;
+
+}
+
+.twitter:hover {
+ 
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/twi.png);
+ 
+}
+
+.linkedin:hover {
+ 
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/in.png);
+ 
+}
+
+.google:hover {
+
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/google.png);
+	
+}
+
+.cm {
+
+	position:absolute;
+	left:200px;
+	width:180px;
+	height:180px;
+	top:150px;
+	transition: background-image ease-in-out;
+	background-repeat:no-repeat;
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/cms.png);
+	-webkit-transition: -webkit-transform 2s;
+		
+}
+
+.ecommerces {
+
+	position:absolute;
+	left:570px;
+	width:180px;
+	height:180px;
+	top:150px;
+	transition: background-image ease-in-out;
+	background-repeat:no-repeat;
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/ecommerce.png);
+	-webkit-transition: -webkit-transform 2s;
+	
+}
+
+.advance {
+
+	position:absolute;
+	left:950px;
+	width:180px;
+	height:180px;
+	top:150px;
+	transition: background-image ease-in-out;
+	background-repeat:no-repeat;
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/advanced.png);
+	-webkit-transition: -webkit-transform 2s;
+	
+}
+
+.cm:hover {
+ 
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/cms_hover.png);
+	-webkit-transform: rotate(360deg) scale(1.1);
+ 
+}
+
+.ecommerces:hover {
+ 
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/ecommerce_hover.png);
+	-webkit-transform: rotate(360deg) scale(1.1);
+ 
+}
+
+.advance:hover {
+ 
+	background-image:url(http://system-hostings.dev.wiredelta.com/wdsubdomains/web/Images/advanced_hover.png);
+	-webkit-transform: rotate(360deg) scale(1.1);
+ 
+}
